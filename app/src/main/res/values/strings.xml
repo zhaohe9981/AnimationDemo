@@ -10,4 +10,6 @@
     <string name="object_start">开始对象动画</string>
     <string name="path_start">开始Path动画</string>
 
+    <string name="animation_frame">帧动画</string>
+
 </resources>

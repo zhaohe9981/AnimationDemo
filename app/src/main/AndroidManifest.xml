@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".property.PropertyAnimationActivity" android:label="@string/animation_property"/>
-        <activity android:name=".tween.TweenAnimationActivity" android:label="@string/animation_tween"/>
+        <activity android:name=".frame.FrameAnimationActivity"
+            android:label="@string/animation_frame"/>
+        <activity
+            android:name=".property.PropertyAnimationActivity"
+            android:label="@string/animation_property" />
+        <activity
+            android:name=".tween.TweenAnimationActivity"
+            android:label="@string/animation_tween" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
