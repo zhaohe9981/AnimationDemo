@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AnimationDemo</string>
+
+    <string name="animation_tween">Tween动画</string>
+
+    <string name="tween_rotate">Tween旋转动画</string>
+    <string name="tween_translate">Tween移动动画</string>
+
 </resources>
