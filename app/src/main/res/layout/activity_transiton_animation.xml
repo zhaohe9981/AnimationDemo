@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transition_old"
+        android:onClick="oldTransition"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transition_explode"
+        android:onClick="explodeTransition"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transition_slide"
+        android:onClick="slideTransition"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transition_fade"
+        android:onClick="fadeTransition"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transition_share"
+        android:onClick="shareTransition"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transition_share"
+        android:onClick="shareListActivity"/>
+
+    <ImageView
+        android:id="@+id/iv_car"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_car"
+        android:layout_marginTop="10dp"
+        android:transitionName="car"/>
+
+</LinearLayout>

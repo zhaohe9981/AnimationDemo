@@ -9,6 +9,7 @@ import android.view.View;
 import com.xiaoniu.animation.reveal.RevealAnimationActivity;
 import com.xiaoniu.animation.frame.FrameAnimationActivity;
 import com.xiaoniu.animation.property.PropertyAnimationActivity;
+import com.xiaoniu.animation.transition.TransitionAnimationActivity;
 import com.xiaoniu.animation.tween.TweenAnimationActivity;
 
 /**
@@ -51,8 +52,16 @@ public class MainActivity extends AppCompatActivity {
      * 圆形揭露动画
      * @param view
      */
-    public void onOvalRevealAnimation(View view){
+    public void onCircleRevealAnimation(View view){
         goOtherActivity(RevealAnimationActivity.class);
+    }
+
+    /**
+     * 转场动画
+     * @param view
+     */
+    public void onTransitionAnimation(View view){
+        goOtherActivity(TransitionAnimationActivity.class);
     }
 
 

@@ -18,4 +18,11 @@
     <string name="reveal_left_right">从左到右</string>
     <string name="reveal_lefttop_rightbotom">从左上到右下</string>
 
+    <string name="transition_animation">转场动画</string>
+    <string name="transition_old">老转场动画</string>
+    <string name="transition_explode">爆炸转场动画</string>
+    <string name="transition_slide">从下往上转场动画</string>
+    <string name="transition_fade">渐变转场动画</string>
+    <string name="transition_share">共享元素转场动画</string>
+
 </resources>

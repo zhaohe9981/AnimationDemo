@@ -2,6 +2,11 @@
 演示动画的使用
 
 # ---2019.7.22---
+* 添加转场动画
+  * Android 5.0以前通过使用overridePendingTransition来进行转场动画
+  * Android5.0以后有Explode、Fade、Slide、Share转场动画
+
+# ---2019.7.22---
 * 添加揭露动画
   * 通过ViewAnimationUtils创建揭露动画
   * 传入目标view
