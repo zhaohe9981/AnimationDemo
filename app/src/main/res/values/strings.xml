@@ -2,8 +2,12 @@
     <string name="app_name">AnimationDemo</string>
 
     <string name="animation_tween">Tween动画</string>
-
     <string name="tween_rotate">Tween旋转动画</string>
     <string name="tween_translate">Tween移动动画</string>
+
+    <string name="animation_property">属性动画</string>
+    <string name="property_start">开始属性动画</string>
+    <string name="object_start">开始对象动画</string>
+    <string name="path_start">开始Path动画</string>
 
 </resources>
