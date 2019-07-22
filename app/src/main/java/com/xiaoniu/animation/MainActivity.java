@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.xiaoniu.animation.reveal.RevealAnimationActivity;
 import com.xiaoniu.animation.frame.FrameAnimationActivity;
 import com.xiaoniu.animation.property.PropertyAnimationActivity;
 import com.xiaoniu.animation.tween.TweenAnimationActivity;
@@ -44,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onFrameAnimation(View view){
         goOtherActivity(FrameAnimationActivity.class);
+    }
+
+    /**
+     * 圆形揭露动画
+     * @param view
+     */
+    public void onOvalRevealAnimation(View view){
+        goOtherActivity(RevealAnimationActivity.class);
     }
 
 

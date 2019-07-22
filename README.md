@@ -2,6 +2,13 @@
 演示动画的使用
 
 # ---2019.7.22---
+* 添加揭露动画
+  * 通过ViewAnimationUtils创建揭露动画
+  * 传入目标view
+  * 传入动画开始的中心点
+  * 传入动画的起始半径
+
+# ---2019.7.22---
 * 添加帧动画
   * 在drawable目录下添加animation-list xml文件
   * 把xml设置到布局中的imageView的src

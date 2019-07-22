@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".frame.FrameAnimationActivity"
-            android:label="@string/animation_frame"/>
+        <activity android:name=".reveal.RevealAnimationActivity"
+            android:label="@string/animation_reveal"/>
+        <activity
+            android:name=".frame.FrameAnimationActivity"
+            android:label="@string/animation_frame" />
         <activity
             android:name=".property.PropertyAnimationActivity"
             android:label="@string/animation_property" />

@@ -12,4 +12,10 @@
 
     <string name="animation_frame">帧动画</string>
 
+    <string name="animation_reveal">揭露动画</string>
+    <string name="reveal_small_large">从小到大</string>
+    <string name="reveal_large_small">从大到小</string>
+    <string name="reveal_left_right">从左到右</string>
+    <string name="reveal_lefttop_rightbotom">从左上到右下</string>
+
 </resources>
