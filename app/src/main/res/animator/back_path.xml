@@ -2,6 +2,9 @@
 
 <!-- path_morph.xml -->
 <set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--valueFrom 和 valueTo 需要有一定的一致性否则会报错cant-morph-from-x-to-z-->
+    <!--https://stackoverflow.com/questions/27626831/error-while-trying-to-test-animatedvectordrawable-cant-morph-from-x-to-z-->
     <objectAnimator
         android:duration="1000"
         android:propertyName="pathData"
