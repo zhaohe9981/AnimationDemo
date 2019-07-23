@@ -1,0 +1,17 @@
+<vector android:height="24dp"
+    android:tint="#0F12A6"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0"
+    android:width="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:name="rotationgroup"
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="0.0">
+
+        <path android:name="source"
+            android:fillColor="#FF000000"
+            android:pathData="@string/ic_dehaze"/>
+    </group>
+</vector>

@@ -6,10 +6,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.xiaoniu.animation.reveal.RevealAnimationActivity;
 import com.xiaoniu.animation.frame.FrameAnimationActivity;
 import com.xiaoniu.animation.property.PropertyAnimationActivity;
+import com.xiaoniu.animation.reveal.RevealAnimationActivity;
 import com.xiaoniu.animation.transition.TransitionAnimationActivity;
+import com.xiaoniu.animation.transition.VectorAnimationActivity;
 import com.xiaoniu.animation.tween.TweenAnimationActivity;
 
 /**
@@ -62,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onTransitionAnimation(View view){
         goOtherActivity(TransitionAnimationActivity.class);
+    }
+
+    /**
+     * 矢量动画
+     * @param view
+     */
+    public void onVectorAnimation(View view){
+        goOtherActivity(VectorAnimationActivity.class);
     }
 
 

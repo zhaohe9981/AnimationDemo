@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- path_morph.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:valueFrom="@string/ic_dehaze"
+        android:valueTo="@string/ic_arrow_back"
+        android:valueType="pathType">
+
+    </objectAnimator>
+</set>

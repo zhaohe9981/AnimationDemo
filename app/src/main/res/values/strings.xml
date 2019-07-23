@@ -25,4 +25,10 @@
     <string name="transition_fade">渐变转场动画</string>
     <string name="transition_share">共享元素转场动画</string>
 
+
+    <string name="vector_animation">矢量动画</string>
+    <string name="vector_start">动起来</string>
+    <string name="ic_dehaze">M2,15.5v2h20v-2L2,15.5zM2,10.5v2h20v-2L2,10.5zM2,5.5v2h20v-2L2,5.5z</string>
+    <string name="ic_arrow_back">M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z</string>
+
 </resources>

@@ -48,5 +48,12 @@
             android:text="@string/transition_animation"
             android:onClick="onTransitionAnimation"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/vector_animation"
+            android:onClick="onVectorAnimation"/>
+
     </LinearLayout>
 </ScrollView>
