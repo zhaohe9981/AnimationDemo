@@ -1,6 +1,10 @@
 # AnimationDemo
 演示动画的使用
 
+# ---2019.7.24---
+* 添加自定义的TweenAnimation
+* [学习地址](https://blog.csdn.net/LPC_JAVA/article/details/53044984)
+
 # ---2019.7.23/24---
 * 添加VectorAnimation
   * VectorAnimation占用空间比较少，可以适配各个分辨率的屏幕

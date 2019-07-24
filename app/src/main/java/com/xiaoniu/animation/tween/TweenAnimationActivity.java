@@ -1,5 +1,6 @@
 package com.xiaoniu.animation.tween;
 
+import android.animation.ObjectAnimator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -41,6 +42,14 @@ public class TweenAnimationActivity extends AppCompatActivity {
 
     public void onTranslate(View view){
         imageView.startAnimation(AnimationUtils.loadAnimation(this, R.anim.tween_set));
+    }
+
+    public void onCustomAnimation(View view){
+//        MyAnimation animation = new MyAnimation(1000, 0, 180);
+        MyAnimation animation = new MyAnimation(10000, 0, 360);
+        imageView.startAnimation(animation);
+
+//        ObjectAnimator.ofFloat(imageView, "rotationX",0,360).setDuration(1000).start();
     }
 
 }

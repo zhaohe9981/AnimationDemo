@@ -4,6 +4,7 @@
     <string name="animation_tween">Tween动画</string>
     <string name="tween_rotate">Tween旋转动画</string>
     <string name="tween_translate">Tween移动动画</string>
+    <string name="tween_custom">Tween自定义动画</string>
 
     <string name="animation_property">属性动画</string>
     <string name="property_start">开始属性动画</string>
