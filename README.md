@@ -1,13 +1,13 @@
 # AnimationDemo
 演示动画的使用
 
-# ---2019.7.23---
+# ---2019.7.23/24---
 * 添加VectorAnimation
   * VectorAnimation占用空间比较少，可以适配各个分辨率的屏幕
   * 静态的Vector可以在drawable文件夹右键 New -> VectorAsset选择。也可以自己写或者到特定的网站找
   * 动态的Vector是在两个图形直接切换。如果 报错cant-morph-from-x-to-z，说明两个Vector PathData没有对齐
   参考：[stackoverflow](https://stackoverflow.com/questions/27626831/error-while-trying-to-test-animatedvectordrawable-cant-morph-from-x-to-z)
-
+  * 7.24添加trimPath动画
 # ---2019.7.22---
 * 添加转场动画
   * Android 5.0以前通过使用overridePendingTransition来进行转场动画

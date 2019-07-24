@@ -1,4 +1,4 @@
-package com.xiaoniu.animation.transition;
+package com.xiaoniu.animation.vector;
 
 import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Bundle;
@@ -17,11 +17,10 @@ import butterknife.ButterKnife;
  */
 public class VectorAnimationActivity extends AppCompatActivity {
 
-    @BindView(R.id.iv_favorite)
-    ImageView iv_favorite;
-
     @BindView(R.id.iv_vector)
     ImageView iv_vector;
+    @BindView(R.id.iv__trimpath)
+    ImageView iv_trim_path;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,5 +34,12 @@ public class VectorAnimationActivity extends AppCompatActivity {
     public void onStartVector(View view){
         AnimatedVectorDrawable drawable = (AnimatedVectorDrawable) iv_vector.getDrawable();
         drawable.start();
+    }
+
+    private boolean isChecked = false;
+    public void onStarTrimPathVector(View view){
+        isChecked = !isChecked;
+        final int[] stateSet = {android.R.attr.state_checked * (isChecked ? 1 : -1)};
+        iv_trim_path.setImageState(stateSet, true);
     }
 }

@@ -10,7 +10,7 @@ import com.xiaoniu.animation.frame.FrameAnimationActivity;
 import com.xiaoniu.animation.property.PropertyAnimationActivity;
 import com.xiaoniu.animation.reveal.RevealAnimationActivity;
 import com.xiaoniu.animation.transition.TransitionAnimationActivity;
-import com.xiaoniu.animation.transition.VectorAnimationActivity;
+import com.xiaoniu.animation.vector.VectorAnimationActivity;
 import com.xiaoniu.animation.tween.TweenAnimationActivity;
 
 /**

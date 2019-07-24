@@ -18,12 +18,26 @@
        android:layout_width="100dp"
        android:layout_height="100dp"
        android:layout_marginTop="20dp"
-       android:src="@drawable/animated_back"/>
+       android:src="@drawable/animated_vector_back"/>
 
    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="@string/vector_start"
        android:onClick="onStartVector"/>
+
+
+   <ImageView
+       android:id="@+id/iv__trimpath"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginTop="20dp"
+       android:src="@drawable/vector_trim_path"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/vector_start"
+       android:onClick="onStarTrimPathVector"/>
 
 </LinearLayout>
